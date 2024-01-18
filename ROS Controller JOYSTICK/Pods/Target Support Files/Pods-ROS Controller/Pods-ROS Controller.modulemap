@@ -1,0 +1,6 @@
+module Pods_ROS_Controller {
+  umbrella header "Pods-ROS Controller-umbrella.h"
+
+  export *
+  module * { export * }
+}

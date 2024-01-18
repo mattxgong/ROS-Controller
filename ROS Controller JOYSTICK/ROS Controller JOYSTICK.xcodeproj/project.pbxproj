@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65709E7828EBB6770076E82E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65709E7728EBB6770076E82E /* AppDelegate.swift */; };
+		65709E7A28EBB6770076E82E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65709E7928EBB6770076E82E /* SceneDelegate.swift */; };
+		65709E7C28EBB6770076E82E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65709E7B28EBB6770076E82E /* ViewController.swift */; };
+		65709E7F28EBB6770076E82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65709E7D28EBB6770076E82E /* Main.storyboard */; };
+		65709E8428EBB6810076E82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65709E8328EBB6810076E82E /* Assets.xcassets */; };
+		65709E8728EBB6810076E82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65709E8528EBB6810076E82E /* LaunchScreen.storyboard */; };
+		65709E8F28EE61E60076E82E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65709E8E28EE61E50076E82E /* WebViewController.swift */; };
+		65709E9228EE6F4B0076E82E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 65709E9028EE6F490076E82E /* index.html */; };
+		65709E9328EE6F4C0076E82E /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 65709E9128EE6F4B0076E82E /* main.js */; };
+		65709E97290635C60076E82E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 65709E96290635C40076E82E /* placeholder.png */; };
+		65ECC7BB293302BB00ADB987 /* ROS_Controller_JOYSTICK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65ECC7B9293302BB00ADB987 /* ROS_Controller_JOYSTICK.xcdatamodeld */; };
+		65ECC7C0293314A300ADB987 /* base2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65ECC7BE293314A200ADB987 /* base2.png */; };
+		65ECC7C1293314A300ADB987 /* base3.png in Resources */ = {isa = PBXBuildFile; fileRef = 65ECC7BF293314A200ADB987 /* base3.png */; };
+		FF014C425650104B96665A56 /* libPods-ROS Controller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0C5B4E6514A6F1BEA07A50 /* libPods-ROS Controller.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5890ABC378FE87935D2C73CB /* Pods-ROS Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROS Controller.release.xcconfig"; path = "Target Support Files/Pods-ROS Controller/Pods-ROS Controller.release.xcconfig"; sourceTree = "<group>"; };
+		65709E7428EBB6770076E82E /* ROS Controller JOYSTICK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ROS Controller JOYSTICK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65709E7728EBB6770076E82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65709E7928EBB6770076E82E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65709E7B28EBB6770076E82E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65709E7E28EBB6770076E82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65709E8328EBB6810076E82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65709E8628EBB6810076E82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65709E8828EBB6810076E82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65709E8E28EE61E50076E82E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		65709E9028EE6F490076E82E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		65709E9128EE6F4B0076E82E /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		65709E96290635C40076E82E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		65ECC7BA293302BB00ADB987 /* ROS_Controller_JOYSTICK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ROS_Controller_JOYSTICK.xcdatamodel; sourceTree = "<group>"; };
+		65ECC7BE293314A200ADB987 /* base2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base2.png; sourceTree = "<group>"; };
+		65ECC7BF293314A200ADB987 /* base3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base3.png; sourceTree = "<group>"; };
+		708835310C85366B7979F775 /* Pods-ROS Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROS Controller.debug.xcconfig"; path = "Target Support Files/Pods-ROS Controller/Pods-ROS Controller.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0C5B4E6514A6F1BEA07A50 /* libPods-ROS Controller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROS Controller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65709E7128EBB6770076E82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF014C425650104B96665A56 /* libPods-ROS Controller.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65709E6B28EBB6770076E82E = {
+			isa = PBXGroup;
+			children = (
+				65709E7628EBB6770076E82E /* ROS Controller JOYSTICK */,
+				65709E7528EBB6770076E82E /* Products */,
+				70B0B61E50A406B1F3069DB2 /* Pods */,
+				E385E60CB9C5FC9A09B3FC91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65709E7528EBB6770076E82E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65709E7428EBB6770076E82E /* ROS Controller JOYSTICK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65709E7628EBB6770076E82E /* ROS Controller JOYSTICK */ = {
+			isa = PBXGroup;
+			children = (
+				65709E9028EE6F490076E82E /* index.html */,
+				65709E9128EE6F4B0076E82E /* main.js */,
+				65709E7728EBB6770076E82E /* AppDelegate.swift */,
+				65709E7928EBB6770076E82E /* SceneDelegate.swift */,
+				65709E7B28EBB6770076E82E /* ViewController.swift */,
+				65709E8E28EE61E50076E82E /* WebViewController.swift */,
+				65709E96290635C40076E82E /* placeholder.png */,
+				65ECC7BE293314A200ADB987 /* base2.png */,
+				65ECC7BF293314A200ADB987 /* base3.png */,
+				65709E7D28EBB6770076E82E /* Main.storyboard */,
+				65709E8328EBB6810076E82E /* Assets.xcassets */,
+				65ECC7B9293302BB00ADB987 /* ROS_Controller_JOYSTICK.xcdatamodeld */,
+				65709E8528EBB6810076E82E /* LaunchScreen.storyboard */,
+				65709E8828EBB6810076E82E /* Info.plist */,
+			);
+			path = "ROS Controller JOYSTICK";
+			sourceTree = "<group>";
+		};
+		70B0B61E50A406B1F3069DB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				708835310C85366B7979F775 /* Pods-ROS Controller.debug.xcconfig */,
+				5890ABC378FE87935D2C73CB /* Pods-ROS Controller.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E385E60CB9C5FC9A09B3FC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0C5B4E6514A6F1BEA07A50 /* libPods-ROS Controller.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65709E7328EBB6770076E82E /* ROS Controller JOYSTICK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65709E8B28EBB6810076E82E /* Build configuration list for PBXNativeTarget "ROS Controller JOYSTICK" */;
+			buildPhases = (
+				BCC288B56AABFF28D25FEDEB /* [CP] Check Pods Manifest.lock */,
+				65709E7028EBB6770076E82E /* Sources */,
+				65709E7128EBB6770076E82E /* Frameworks */,
+				65709E7228EBB6770076E82E /* Resources */,
+				68FA8AE79F79CB9E69480652 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ROS Controller JOYSTICK";
+			productName = "ROS Controller";
+			productReference = 65709E7428EBB6770076E82E /* ROS Controller JOYSTICK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65709E6C28EBB6770076E82E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					65709E7328EBB6770076E82E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 65709E6F28EBB6770076E82E /* Build configuration list for PBXProject "ROS Controller JOYSTICK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65709E6B28EBB6770076E82E;
+			productRefGroup = 65709E7528EBB6770076E82E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65709E7328EBB6770076E82E /* ROS Controller JOYSTICK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65709E7228EBB6770076E82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65709E8728EBB6810076E82E /* LaunchScreen.storyboard in Resources */,
+				65709E97290635C60076E82E /* placeholder.png in Resources */,
+				65ECC7C1293314A300ADB987 /* base3.png in Resources */,
+				65709E9228EE6F4B0076E82E /* index.html in Resources */,
+				65709E8428EBB6810076E82E /* Assets.xcassets in Resources */,
+				65709E7F28EBB6770076E82E /* Main.storyboard in Resources */,
+				65ECC7C0293314A300ADB987 /* base2.png in Resources */,
+				65709E9328EE6F4C0076E82E /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68FA8AE79F79CB9E69480652 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ROS Controller/Pods-ROS Controller-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ROS Controller/Pods-ROS Controller-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ROS Controller/Pods-ROS Controller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC288B56AABFF28D25FEDEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ROS Controller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65709E7028EBB6770076E82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ECC7BB293302BB00ADB987 /* ROS_Controller_JOYSTICK.xcdatamodeld in Sources */,
+				65709E7C28EBB6770076E82E /* ViewController.swift in Sources */,
+				65709E7828EBB6770076E82E /* AppDelegate.swift in Sources */,
+				65709E8F28EE61E60076E82E /* WebViewController.swift in Sources */,
+				65709E7A28EBB6770076E82E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65709E7D28EBB6770076E82E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65709E7E28EBB6770076E82E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65709E8528EBB6810076E82E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65709E8628EBB6810076E82E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65709E8928EBB6810076E82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65709E8A28EBB6810076E82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65709E8C28EBB6810076E82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708835310C85366B7979F775 /* Pods-ROS Controller.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4V552U54U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ROS Controller JOYSTICK/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MatthewG.ROS-Controller-JOYSTICK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65709E8D28EBB6810076E82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5890ABC378FE87935D2C73CB /* Pods-ROS Controller.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4V552U54U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ROS Controller JOYSTICK/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MatthewG.ROS-Controller-JOYSTICK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65709E6F28EBB6770076E82E /* Build configuration list for PBXProject "ROS Controller JOYSTICK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65709E8928EBB6810076E82E /* Debug */,
+				65709E8A28EBB6810076E82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65709E8B28EBB6810076E82E /* Build configuration list for PBXNativeTarget "ROS Controller JOYSTICK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65709E8C28EBB6810076E82E /* Debug */,
+				65709E8D28EBB6810076E82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65ECC7B9293302BB00ADB987 /* ROS_Controller_JOYSTICK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65ECC7BA293302BB00ADB987 /* ROS_Controller_JOYSTICK.xcdatamodel */,
+			);
+			path = ROS_Controller_JOYSTICK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65709E6C28EBB6770076E82E /* Project object */;
+}

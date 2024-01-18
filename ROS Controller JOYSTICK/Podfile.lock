@@ -1,0 +1,20 @@
+PODS:
+  - BRHJoyStickView (3.2.0)
+  - SwiftSocket (2.0.2)
+
+DEPENDENCIES:
+  - BRHJoyStickView (~> 3.2)
+  - SwiftSocket
+
+SPEC REPOS:
+  trunk:
+    - BRHJoyStickView
+    - SwiftSocket
+
+SPEC CHECKSUMS:
+  BRHJoyStickView: 231fe835602dc735b5a87d62a20c530a553d56c6
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+
+PODFILE CHECKSUM: 2bb235badaf1fdc1181fa266cc610521b6d3b9aa
+
+COCOAPODS: 1.11.3
